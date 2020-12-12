@@ -27,7 +27,7 @@ class CountryService{
       throw Exception(e.toString());
     }
 
-    return countriesList;
+    return countriesList; //list of countries
   }
 
 }
